@@ -264,6 +264,7 @@ void registerLintRules({bool inTestMode = false}) {
     ..register(AvoidTypesAsParameterNames())
     ..register(AvoidTypesOnClosureParameters())
     ..register(AvoidUnnecessaryContainers())
+    ..register(AvoidUnstableFinalFields())
     ..register(AvoidUnusedConstructorParameters())
     ..register(AvoidVoidAsync())
     ..register(AvoidWebLibrariesInFlutter())
